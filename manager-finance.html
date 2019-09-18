@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<!--meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0")-->
+		<link href="./assets/lib/bootstrap 4.1.3/bootstrap.css" rel="stylesheet">
+		<link href="./assets/lib/jqueryFormStyler/jquery.formstyler.css" rel="stylesheet">
+		<link href="./assets/lib/jqueryFormStyler/jquery.formstyler.theme.css" rel="stylesheet">
+		<link href="./assets/lib/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css">
+		<link href="./assets/fonts/fonts.css" rel="stylesheet">
+		<link href="./css/style.css" rel="stylesheet">
+	</head>
+</html>
+<title>Главная</title>
+<body>
+	<div class="header-wrapper">
+		<div class="header-wrap">
+			<div class="container">
+				<header class="header row">
+					<div class="col-lg-3"><a class="header-logo" href="javascript:void(0);"></a></div>
+					<div class="col-lg-6">
+						<ul class="header__menu">
+							<li class="header__menu-item active"><a class="header__menu-link" href="javascript:void(0);"><img class="header__menu-img" src="../assets/img/icons/orders.svg" alt="" title="">
+									<div class="header__menu-text">Заказы</div></a></li>
+							<li class="header__menu-item"><a class="header__menu-link" href="javascript:void(0);"><img class="header__menu-img" src="../assets/img/icons/fin.svg" alt="" title="">
+									<div class="header__menu-text">Финансы</div></a></li>
+							<li class="header__menu-item"><a class="header__menu-link" href="javascript:void(0);"><img class="header__menu-img" src="../assets/img/icons/docs.svg" alt="" title="">
+									<div class="header__menu-text">Документы</div></a></li>
+							<li class="header__menu-item"><a class="header__menu-link" href="javascript:void(0);"><img class="header__menu-img" src="../assets/img/icons/message.svg" alt="" title="">
+									<div class="header__menu-text">Сообщения</div></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<div class="header-account"><a class="header-account__link" href="javascript:void(0);"><img class="header-account__img" src="../assets/img/icons/account.svg" alt="" title="">
+								<div class="header-account__block">
+									<div class="header-account__name">Константин Афиногенов</div>
+									<div class="header-account__company">ООО «Балтийские Энергосистемы»</div>
+								</div></a></div>
+					</div>
+				</header>
+			</div>
+		</div>
+		<div class="header-bottom__wrap">
+			<div class="container">
+				<div class="row header-bottom header-bottom_main">
+					<div class="col-lg-3">
+						<div class="header-bottom__left">
+							<h1 class="h1">Финансы</h1>
+						</div>
+					</div>
+					<div class="col-lg-6"></div>
+					<div class="col-lg-3">
+						<div class="header-bottom__right">
+							<button class="button-blue buttons-order">Создать новый заказ</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content finance-page finance-page-manager">
+		<div class="header-finance">
+			<div class="container">
+				<div class="input-search__wrap">
+					<input class="input input-search" type="text" placeholder="Быстрый поиск клиента по названию">
+				</div>
+			</div>
+		</div>
+		<div class="container h-100">
+			<div class="row no-gutters h-100">
+				<div class="col-12">
+					<div class="table-wrap table-wrap__finance">
+						<table class="table__order table table__finance w-100">
+							<thead>
+								<tr class="table__order-tr">
+									<th class="table__order-th wt340">Клиент</th>
+									<th class="table__order-th wt180">
+										<div class="finance-filter__title">
+											<div class="span">Текущий баланс</div><a class="arrow-filter arrow-filter_down" href="javascript:void(0);"></a><a class="arrow-filter arrow-filter_up" href="javascript:void(0);"></a>
+										</div>
+									</th>
+									<th class="table__order-th wt180">
+										<div class="finance-filter__title">
+											<div class="span">Расхождение</div><a class="arrow-filter arrow-filter_down" href="javascript:void(0);"></a><a class="arrow-filter arrow-filter_up" href="javascript:void(0);"></a>
+										</div>
+									</th>
+									<th class="table__order-th wt200">
+										<div class="finance-filter__title">
+											<div class="span">Запросы и акт сверки</div><a class="arrow-filter arrow-filter_down" href="javascript:void(0);"></a><a class="arrow-filter arrow-filter_up" href="javascript:void(0);"></a>
+										</div>
+									</th>
+									<th class="table__order-th wt240"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="p0" colspan="5">
+										<table class="w-100 table-finance__inner">
+											<tbody>
+												<tr class="table__order-tr table__order-tr__finance-header">
+													<td class="table__order-td wt340">ООО «Балтийские Энергосистемы»</td>
+													<td class="table__order-td wt180">+ 40 250 руб.</td>
+													<td class="table__order-td wt180">4 заказа</td>
+													<td class="table__order-td wt200">Ожидает обработки</td>
+													<td class="table__order-td wt240">
+														<div class="button-dropdown"><span class="button-hidden">Подробнее</span><span class="button-show">Свернуть</span></div>
+													</td>
+												</tr>
+												<tr class="table__order-tr">
+													<td class="table__order-td table__order-td_inner" colspan="5">
+														<div class="table__order-tr__dropdown" style="display:none;">
+															<div class="balance-block">
+																<div class="balance-block__text">Баланс на 01 сентября 2017 положительный и составляет:</div>
+																<div class="balance-block__bottom"><img class="balance-block__bottom-img" src="../assets/img/icons/plus.svg" alt="" title="">
+																	<div class="balance-block__bottom-num">40 250 <span class="span">рублей</span></div>
+																</div>
+															</div>
+															<div class="table__block">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Перечень заказов с расхождением</div>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped table-clickable">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th">№ Заказа</th>
+																				<th class="table__order-th">Дата создания</th>
+																				<th class="table__order-th">Оплата</th>
+																				<th class="table__order-th">Общая стоимость</th>
+																				<th class="table__order-th">Оплачено</th>
+																				<th class="table__order-th">Расхождение</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+															<div class="table__block acts">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Акты сверки</div>
+																	<button class="button-green">Запросить акт сверки</button>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th w130">Дата создания</th>
+																				<th class="table__order-th w240">Период</th>
+																				<th class="table__order-th">Статус</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td">В обработке</td>
+																			</tr>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td"><a class="table-download" href="javascript:void(0);" download>Скачать</a></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<table class="w-100 table-finance__inner">
+											<tbody>
+												<tr class="table__order-tr table__order-tr__finance-header">
+													<td class="table__order-td wt340">ООО «Балтийские Энергосистемы»</td>
+													<td class="table__order-td wt180">+ 40 250 руб.</td>
+													<td class="table__order-td wt180">4 заказа</td>
+													<td class="table__order-td wt200">Ожидает обработки</td>
+													<td class="table__order-td wt240">
+														<div class="button-dropdown"><span class="button-hidden">Подробнее</span><span class="button-show">Свернуть</span></div>
+													</td>
+												</tr>
+												<tr class="table__order-tr">
+													<td class="table__order-td table__order-td_inner" colspan="5">
+														<div class="table__order-tr__dropdown" style="display:none;">
+															<div class="balance-block">
+																<div class="balance-block__text">Баланс на 01 сентября 2017 положительный и составляет:</div>
+																<div class="balance-block__bottom"><img class="balance-block__bottom-img" src="../assets/img/icons/plus.svg" alt="" title="">
+																	<div class="balance-block__bottom-num">40 250 <span class="span">рублей</span></div>
+																</div>
+															</div>
+															<div class="table__block">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Перечень заказов с расхождением</div>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped table-clickable">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th">№ Заказа</th>
+																				<th class="table__order-th">Дата создания</th>
+																				<th class="table__order-th">Оплата</th>
+																				<th class="table__order-th">Общая стоимость</th>
+																				<th class="table__order-th">Оплачено</th>
+																				<th class="table__order-th">Расхождение</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+															<div class="table__block acts">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Акты сверки</div>
+																	<button class="button-green">Запросить акт сверки</button>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th w130">Дата создания</th>
+																				<th class="table__order-th w240">Период</th>
+																				<th class="table__order-th">Статус</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td">В обработке</td>
+																			</tr>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td"><a class="table-download" href="javascript:void(0);" download>Скачать</a></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<table class="w-100 table-finance__inner">
+											<tbody>
+												<tr class="table__order-tr table__order-tr__finance-header">
+													<td class="table__order-td wt340">ООО «Балтийские Энергосистемы»</td>
+													<td class="table__order-td wt180">+ 40 250 руб.</td>
+													<td class="table__order-td wt180">4 заказа</td>
+													<td class="table__order-td wt200">Ожидает обработки</td>
+													<td class="table__order-td wt240">
+														<div class="button-dropdown"><span class="button-hidden">Подробнее</span><span class="button-show">Свернуть</span></div>
+													</td>
+												</tr>
+												<tr class="table__order-tr">
+													<td class="table__order-td table__order-td_inner" colspan="5">
+														<div class="table__order-tr__dropdown" style="display:none;">
+															<div class="balance-block">
+																<div class="balance-block__text">Баланс на 01 сентября 2017 положительный и составляет:</div>
+																<div class="balance-block__bottom"><img class="balance-block__bottom-img" src="../assets/img/icons/plus.svg" alt="" title="">
+																	<div class="balance-block__bottom-num">40 250 <span class="span">рублей</span></div>
+																</div>
+															</div>
+															<div class="table__block">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Перечень заказов с расхождением</div>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped table-clickable">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th">№ Заказа</th>
+																				<th class="table__order-th">Дата создания</th>
+																				<th class="table__order-th">Оплата</th>
+																				<th class="table__order-th">Общая стоимость</th>
+																				<th class="table__order-th">Оплачено</th>
+																				<th class="table__order-th">Расхождение</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+															<div class="table__block acts">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Акты сверки</div>
+																	<button class="button-green">Запросить акт сверки</button>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th w130">Дата создания</th>
+																				<th class="table__order-th w240">Период</th>
+																				<th class="table__order-th">Статус</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td">В обработке</td>
+																			</tr>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td"><a class="table-download" href="javascript:void(0);" download>Скачать</a></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<table class="w-100 table-finance__inner">
+											<tbody>
+												<tr class="table__order-tr table__order-tr__finance-header">
+													<td class="table__order-td wt340">ООО «Балтийские Энергосистемы»</td>
+													<td class="table__order-td wt180">+ 40 250 руб.</td>
+													<td class="table__order-td wt180">4 заказа</td>
+													<td class="table__order-td wt200">Ожидает обработки</td>
+													<td class="table__order-td wt240">
+														<div class="button-dropdown"><span class="button-hidden">Подробнее</span><span class="button-show">Свернуть</span></div>
+													</td>
+												</tr>
+												<tr class="table__order-tr">
+													<td class="table__order-td table__order-td_inner" colspan="5">
+														<div class="table__order-tr__dropdown" style="display:none;">
+															<div class="balance-block">
+																<div class="balance-block__text">Баланс на 01 сентября 2017 положительный и составляет:</div>
+																<div class="balance-block__bottom"><img class="balance-block__bottom-img" src="../assets/img/icons/plus.svg" alt="" title="">
+																	<div class="balance-block__bottom-num">40 250 <span class="span">рублей</span></div>
+																</div>
+															</div>
+															<div class="table__block">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Перечень заказов с расхождением</div>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped table-clickable">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th">№ Заказа</th>
+																				<th class="table__order-th">Дата создания</th>
+																				<th class="table__order-th">Оплата</th>
+																				<th class="table__order-th">Общая стоимость</th>
+																				<th class="table__order-th">Оплачено</th>
+																				<th class="table__order-th">Расхождение</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+															<div class="table__block acts">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Акты сверки</div>
+																	<button class="button-green">Запросить акт сверки</button>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th w130">Дата создания</th>
+																				<th class="table__order-th w240">Период</th>
+																				<th class="table__order-th">Статус</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td">В обработке</td>
+																			</tr>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td"><a class="table-download" href="javascript:void(0);" download>Скачать</a></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<table class="w-100 table-finance__inner">
+											<tbody>
+												<tr class="table__order-tr table__order-tr__finance-header">
+													<td class="table__order-td wt340">ООО «Балтийские Энергосистемы»</td>
+													<td class="table__order-td wt180">+ 40 250 руб.</td>
+													<td class="table__order-td wt180">4 заказа</td>
+													<td class="table__order-td wt200">Ожидает обработки</td>
+													<td class="table__order-td wt240">
+														<div class="button-dropdown"><span class="button-hidden">Подробнее</span><span class="button-show">Свернуть</span></div>
+													</td>
+												</tr>
+												<tr class="table__order-tr">
+													<td class="table__order-td table__order-td_inner" colspan="5">
+														<div class="table__order-tr__dropdown" style="display:none;">
+															<div class="balance-block">
+																<div class="balance-block__text">Баланс на 01 сентября 2017 положительный и составляет:</div>
+																<div class="balance-block__bottom"><img class="balance-block__bottom-img" src="../assets/img/icons/plus.svg" alt="" title="">
+																	<div class="balance-block__bottom-num">40 250 <span class="span">рублей</span></div>
+																</div>
+															</div>
+															<div class="table__block">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Перечень заказов с расхождением</div>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped table-clickable">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th">№ Заказа</th>
+																				<th class="table__order-th">Дата создания</th>
+																				<th class="table__order-th">Оплата</th>
+																				<th class="table__order-th">Общая стоимость</th>
+																				<th class="table__order-th">Оплачено</th>
+																				<th class="table__order-th">Расхождение</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+															<div class="table__block acts">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Акты сверки</div>
+																	<button class="button-green">Запросить акт сверки</button>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th w130">Дата создания</th>
+																				<th class="table__order-th w240">Период</th>
+																				<th class="table__order-th">Статус</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td">В обработке</td>
+																			</tr>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td"><a class="table-download" href="javascript:void(0);" download>Скачать</a></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<table class="w-100 table-finance__inner">
+											<tbody>
+												<tr class="table__order-tr table__order-tr__finance-header">
+													<td class="table__order-td wt340">ООО «Балтийские Энергосистемы»</td>
+													<td class="table__order-td wt180">+ 40 250 руб.</td>
+													<td class="table__order-td wt180">4 заказа</td>
+													<td class="table__order-td wt200">Ожидает обработки</td>
+													<td class="table__order-td wt240">
+														<div class="button-dropdown"><span class="button-hidden">Подробнее</span><span class="button-show">Свернуть</span></div>
+													</td>
+												</tr>
+												<tr class="table__order-tr">
+													<td class="table__order-td table__order-td_inner" colspan="5">
+														<div class="table__order-tr__dropdown" style="display:none;">
+															<div class="balance-block">
+																<div class="balance-block__text">Баланс на 01 сентября 2017 положительный и составляет:</div>
+																<div class="balance-block__bottom"><img class="balance-block__bottom-img" src="../assets/img/icons/plus.svg" alt="" title="">
+																	<div class="balance-block__bottom-num">40 250 <span class="span">рублей</span></div>
+																</div>
+															</div>
+															<div class="table__block">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Перечень заказов с расхождением</div>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped table-clickable">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th">№ Заказа</th>
+																				<th class="table__order-th">Дата создания</th>
+																				<th class="table__order-th">Оплата</th>
+																				<th class="table__order-th">Общая стоимость</th>
+																				<th class="table__order-th">Оплачено</th>
+																				<th class="table__order-th">Расхождение</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+															<div class="table__block acts">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Акты сверки</div>
+																	<button class="button-green">Запросить акт сверки</button>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th w130">Дата создания</th>
+																				<th class="table__order-th w240">Период</th>
+																				<th class="table__order-th">Статус</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td">В обработке</td>
+																			</tr>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td"><a class="table-download" href="javascript:void(0);" download>Скачать</a></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<table class="w-100 table-finance__inner">
+											<tbody>
+												<tr class="table__order-tr table__order-tr__finance-header">
+													<td class="table__order-td wt340">ООО «Балтийские Энергосистемы»</td>
+													<td class="table__order-td wt180">+ 40 250 руб.</td>
+													<td class="table__order-td wt180">4 заказа</td>
+													<td class="table__order-td wt200">Ожидает обработки</td>
+													<td class="table__order-td wt240">
+														<div class="button-dropdown"><span class="button-hidden">Подробнее</span><span class="button-show">Свернуть</span></div>
+													</td>
+												</tr>
+												<tr class="table__order-tr">
+													<td class="table__order-td table__order-td_inner" colspan="5">
+														<div class="table__order-tr__dropdown" style="display:none;">
+															<div class="balance-block">
+																<div class="balance-block__text">Баланс на 01 сентября 2017 положительный и составляет:</div>
+																<div class="balance-block__bottom"><img class="balance-block__bottom-img" src="../assets/img/icons/plus.svg" alt="" title="">
+																	<div class="balance-block__bottom-num">40 250 <span class="span">рублей</span></div>
+																</div>
+															</div>
+															<div class="table__block">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Перечень заказов с расхождением</div>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped table-clickable">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th">№ Заказа</th>
+																				<th class="table__order-th">Дата создания</th>
+																				<th class="table__order-th">Оплата</th>
+																				<th class="table__order-th">Общая стоимость</th>
+																				<th class="table__order-th">Оплачено</th>
+																				<th class="table__order-th">Расхождение</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+															<div class="table__block acts">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Акты сверки</div>
+																	<button class="button-green">Запросить акт сверки</button>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th w130">Дата создания</th>
+																				<th class="table__order-th w240">Период</th>
+																				<th class="table__order-th">Статус</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td">В обработке</td>
+																			</tr>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td"><a class="table-download" href="javascript:void(0);" download>Скачать</a></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<table class="w-100 table-finance__inner">
+											<tbody>
+												<tr class="table__order-tr table__order-tr__finance-header">
+													<td class="table__order-td wt340">ООО «Балтийские Энергосистемы»</td>
+													<td class="table__order-td wt180">+ 40 250 руб.</td>
+													<td class="table__order-td wt180">4 заказа</td>
+													<td class="table__order-td wt200">Ожидает обработки</td>
+													<td class="table__order-td wt240">
+														<div class="button-dropdown"><span class="button-hidden">Подробнее</span><span class="button-show">Свернуть</span></div>
+													</td>
+												</tr>
+												<tr class="table__order-tr">
+													<td class="table__order-td table__order-td_inner" colspan="5">
+														<div class="table__order-tr__dropdown" style="display:none;">
+															<div class="balance-block">
+																<div class="balance-block__text">Баланс на 01 сентября 2017 положительный и составляет:</div>
+																<div class="balance-block__bottom"><img class="balance-block__bottom-img" src="../assets/img/icons/plus.svg" alt="" title="">
+																	<div class="balance-block__bottom-num">40 250 <span class="span">рублей</span></div>
+																</div>
+															</div>
+															<div class="table__block">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Перечень заказов с расхождением</div>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped table-clickable">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th">№ Заказа</th>
+																				<th class="table__order-th">Дата создания</th>
+																				<th class="table__order-th">Оплата</th>
+																				<th class="table__order-th">Общая стоимость</th>
+																				<th class="table__order-th">Оплачено</th>
+																				<th class="table__order-th">Расхождение</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+															<div class="table__block acts">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Акты сверки</div>
+																	<button class="button-green">Запросить акт сверки</button>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th w130">Дата создания</th>
+																				<th class="table__order-th w240">Период</th>
+																				<th class="table__order-th">Статус</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td">В обработке</td>
+																			</tr>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td"><a class="table-download" href="javascript:void(0);" download>Скачать</a></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<table class="w-100 table-finance__inner">
+											<tbody>
+												<tr class="table__order-tr table__order-tr__finance-header">
+													<td class="table__order-td wt340">ООО «Балтийские Энергосистемы»</td>
+													<td class="table__order-td wt180">+ 40 250 руб.</td>
+													<td class="table__order-td wt180">4 заказа</td>
+													<td class="table__order-td wt200">Ожидает обработки</td>
+													<td class="table__order-td wt240">
+														<div class="button-dropdown"><span class="button-hidden">Подробнее</span><span class="button-show">Свернуть</span></div>
+													</td>
+												</tr>
+												<tr class="table__order-tr">
+													<td class="table__order-td table__order-td_inner" colspan="5">
+														<div class="table__order-tr__dropdown" style="display:none;">
+															<div class="balance-block">
+																<div class="balance-block__text">Баланс на 01 сентября 2017 положительный и составляет:</div>
+																<div class="balance-block__bottom"><img class="balance-block__bottom-img" src="../assets/img/icons/plus.svg" alt="" title="">
+																	<div class="balance-block__bottom-num">40 250 <span class="span">рублей</span></div>
+																</div>
+															</div>
+															<div class="table__block">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Перечень заказов с расхождением</div>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped table-clickable">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th">№ Заказа</th>
+																				<th class="table__order-th">Дата создания</th>
+																				<th class="table__order-th">Оплата</th>
+																				<th class="table__order-th">Общая стоимость</th>
+																				<th class="table__order-th">Оплачено</th>
+																				<th class="table__order-th">Расхождение</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																			<tr class="table__order-tr" data-href="order.html">
+																				<td class="table__order-td">100256</td>
+																				<td class="table__order-td">06.05.2019</td>
+																				<td class="table__order-td">Оплачен</td>
+																				<td class="table__order-td">45 000 руб.</td>
+																				<td class="table__order-td">90 000 руб.</td>
+																				<td class="table__order-td">+45 000 руб.</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+															<div class="table__block acts">
+																<div class="table__block-title-wrap active">
+																	<div class="table__block-title">Акты сверки</div>
+																	<button class="button-green">Запросить акт сверки</button>
+																</div>
+																<div class="table-wrap">
+																	<table class="table__order table table-striped">
+																		<thead>
+																			<tr class="table__order-tr">
+																				<th class="table__order-th w130">Дата создания</th>
+																				<th class="table__order-th w240">Период</th>
+																				<th class="table__order-th">Статус</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td">В обработке</td>
+																			</tr>
+																			<tr class="table__order-tr">
+																				<td class="table__order-td w130">06.05.2019</td>
+																				<td class="table__order-td w240">с 01.04.2019 по 01.05.2019</td>
+																				<td class="table__order-td"><a class="table-download" href="javascript:void(0);" download>Скачать</a></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="pagination__block">
+						<div class="pagination__text">Страница:</div>
+						<ul class="pagination-list">
+							<li class="pagination-item active"><a class="pagination-link" href="javascript:void(0);">1</a></li>
+							<li class="pagination-item"><a class="pagination-link" href="javascript:void(0);">2</a></li>
+							<li class="pagination-item"><a class="pagination-link" href="javascript:void(0);">3</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer-wrap">
+		<div class="container">
+			<div class="row footer">
+				<div class="col-lg-9 footer-left">
+					<div class="copy__block"><img class="copy-img" src="../assets/img/icons/copy.svg" alt="" title="">
+						<div class="copy-text">
+							<div class="copy-text-top">Информационная система «пк Принтпроф»</div>
+							<div class="copy-text-bottom">2019. Все права защищены.</div>
+						</div>
+					</div><a class="conf" href="javascript:void(0);">Политика конфеденциальности</a>
+				</div>
+				<div class="col-lg-3 footer-right"><a class="stek__block" href="javascript:void(0);">
+						<div class="stek__block-text">Разработка и поддержка сайта:<br/> СТЕК. Комплексный ит-аутсорсинг</div><img class="stek__block-img" src="../assets/img/icons/logo-stek.svg" alt="" title=""></a></div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="./assets/lib/jquery/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./assets/lib/bootstrap 4.1.3/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./assets/lib/jqueryFormStyler/jquery.formstyler.min.js"></script>
+	<script type="text/javascript" src="./assets/lib/jquery.maskedinput/jquery.maskedinput.min.js"></script>
+	<script type="text/javascript" src="./assets/lib/jquery-ui-1.12.1/jquery-ui.js"></script>
+	<!--link(href="./assets/lib/jquery-date-range-picker-master/daterangepicker.css" rel="stylesheet")-->
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<script src="./js/index.js"></script>
+</body>

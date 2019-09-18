@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<!--meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0")-->
+		<link href="./assets/lib/bootstrap 4.1.3/bootstrap.css" rel="stylesheet">
+		<link href="./assets/lib/jqueryFormStyler/jquery.formstyler.css" rel="stylesheet">
+		<link href="./assets/lib/jqueryFormStyler/jquery.formstyler.theme.css" rel="stylesheet">
+		<link href="./assets/lib/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css">
+		<link href="./assets/fonts/fonts.css" rel="stylesheet">
+		<link href="./css/style.css" rel="stylesheet">
+	</head>
+</html>
+<title>Главная</title>
+<body>
+	<div class="header-wrapper">
+		<div class="header-wrap">
+			<div class="container">
+				<header class="header row">
+					<div class="col-lg-3"><a class="header-logo" href="javascript:void(0);"></a></div>
+					<div class="col-lg-6">
+						<ul class="header__menu">
+							<li class="header__menu-item active"><a class="header__menu-link" href="javascript:void(0);"><img class="header__menu-img" src="../assets/img/icons/orders.svg" alt="" title="">
+									<div class="header__menu-text">Заказы</div></a></li>
+							<li class="header__menu-item"><a class="header__menu-link" href="javascript:void(0);"><img class="header__menu-img" src="../assets/img/icons/fin.svg" alt="" title="">
+									<div class="header__menu-text">Финансы</div></a></li>
+							<li class="header__menu-item"><a class="header__menu-link" href="javascript:void(0);"><img class="header__menu-img" src="../assets/img/icons/docs.svg" alt="" title="">
+									<div class="header__menu-text">Документы</div></a></li>
+							<li class="header__menu-item"><a class="header__menu-link" href="javascript:void(0);"><img class="header__menu-img" src="../assets/img/icons/message.svg" alt="" title="">
+									<div class="header__menu-text">Сообщения</div></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<div class="header-account"><a class="header-account__link" href="javascript:void(0);"><img class="header-account__img" src="../assets/img/icons/account.svg" alt="" title="">
+								<div class="header-account__block">
+									<div class="header-account__name">Константин Афиногенов</div>
+									<div class="header-account__company">ООО «Балтийские Энергосистемы»</div>
+								</div></a></div>
+					</div>
+				</header>
+			</div>
+		</div>
+		<div class="header-bottom__wrap">
+			<div class="container">
+				<div class="row header-bottom header-bottom_main">
+					<div class="col-lg-3">
+						<div class="header-bottom__left">
+							<h1 class="h1">Личный кабинет</h1>
+						</div>
+					</div>
+					<div class="col-lg-6"></div>
+					<div class="col-lg-3">
+						<div class="header-bottom__right">
+							<button class="button-blue buttons-order">Создать новый заказ</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-tabs__wrap">
+			<div class="container">
+				<div class="header-tabs">
+					<ul class="header-tabs__list">
+						<li class="tabs-item header-tabs__item active" data-thumb="profile-user"><a class="header-tabs__link" href="javascript:void(0);">Профиль пользователя</a></li>
+						<li class="tabs-item header-tabs__item" data-thumb="profile-org"><a class="header-tabs__link" href="javascript:void(0);">Моя организация</a></li>
+						<li class="header-tabs__item"><a class="header-tabs__link" href="javascript:void(0);">Выйти из системы</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content profile-page">
+		<div class="container h-100">
+			<div class="row no-gutters h-100">
+				<div class="col-lg-9 content-left profile-reg">
+					<div class="page__block active" data-thumb="profile-user">
+						<div class="reg-block">
+							<div class="reg-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Электронная почта (логин):</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="email">
+									</div>
+								</div>
+							</div>
+							<div class="reg-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Пароль от кабинета:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="password">
+									</div>
+								</div>
+							</div>
+							<div class="reg-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Новый пароль:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="password">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="name-block">
+							<div class="name-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Ваше имя:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="text">
+									</div>
+								</div>
+							</div>
+							<div class="name-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Отчество:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="text">
+									</div>
+								</div>
+							</div>
+							<div class="name-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Фамилия:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="text">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="phone-block">
+							<div class="phone-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Мобильный телефон:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input input-tel" type="tel" placeholder="+ 7 (999) 999-99-99">
+									</div>
+								</div>
+							</div>
+							<div class="phone-block__item phone-block__item_additional">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Стационарный телефон:</div>
+									</div>
+									<div class="col-lg-8">
+										<div class="phone-additional__block">
+											<input class="input input-tel" type="tel" placeholder="+ 7 (812) 999-99-99">
+											<div class="phone-additional">
+												<div class="input-title">Добавочный:</div>
+												<input class="input" type="text">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="add-phone">
+								<div class="row">
+									<div class="col-lg-4"></div>
+									<div class="col-lg-8">
+										<button class="add-phone__title">Добавить еще телефон</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-4"></div>
+							<div class="col-lg-8"><a class="button-blue button-big" href="javascript:void(0);">сохранить изменения</a></div>
+						</div>
+					</div>
+					<div class="page__block" data-thumb="profile-org">
+						<div class="reg-block">
+							<div class="reg-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Наименование организации:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="text" value="ООО «Балтийские Энергосистемы»">
+									</div>
+								</div>
+							</div>
+							<div class="reg-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Ваша должность:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="text" value="Менеджер по закупкам">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="reg-block">
+							<div class="reg-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">ИНН:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="text" value="0000555000">
+									</div>
+								</div>
+							</div>
+							<div class="reg-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">КПП:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="text" value="0000555000">
+									</div>
+								</div>
+							</div>
+							<div class="reg-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Банк:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="text" value="ОАО Альфабанк">
+									</div>
+								</div>
+							</div>
+							<div class="reg-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">БИК:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="text" value="000222">
+									</div>
+								</div>
+							</div>
+							<div class="reg-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Корреспондентский счет:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="text" value="9998888777666555222">
+									</div>
+								</div>
+							</div>
+							<div class="reg-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Расчетный счет:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="text" value="9998888777666555222">
+									</div>
+								</div>
+							</div>
+							<div class="reg-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Юридический адрес:</div>
+									</div>
+									<div class="col-lg-8">
+										<textarea class="input textarea-big" type="text" value="190500, Санк-Петербург, Большеохтинский проспект, дом 200">190500, Санк-Петербург, Большеохтинский проспект, дом 200</textarea>
+									</div>
+								</div>
+							</div>
+							<div class="reg-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Фактический адрес:</div>
+									</div>
+									<div class="col-lg-8">
+										<textarea class="input textarea-big" type="text" value="190500, Санк-Петербург, Большеохтинский проспект, дом 200">190500, Санк-Петербург, Большеохтинский проспект, дом 200</textarea>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="reg-block">
+							<div class="reg-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Электронная почта:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="text" value="info@baltenergysystems.com">
+									</div>
+								</div>
+							</div>
+							<div class="reg-block__item">
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="input-title">Телефон:</div>
+									</div>
+									<div class="col-lg-8">
+										<input class="input" type="text" value="+7 (812) 500-50-50">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-4"></div>
+							<div class="col-lg-8"><a class="button-blue button-big" href="javascript:void(0);">сохранить изменения</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 content-right">
+					<div class="manager__block">
+						<div class="manager__block-title">Ваш менеджер</div><img class="manager__block-img" src="../assets/img/content/manager-foto.jpg" alt="" title="">
+						<div class="manager__contacts__block">
+							<div class="manager__desc">
+								<div class="manager__name">Щербакова Светлана</div>
+								<div class="manager__status">Специалист отдела продаж</div>
+							</div>
+							<div class="manager__contacts"><a class="manager__phone" href="tel:88126005024">8 812 600 50 24 (доб. 300)</a><a class="manager__phone" href="tel:89216005024">8 921 600 50 24</a><a class="manager__mail" href="mailto:sveta@pkprintprof.ru">sveta@pkprintprof.ru</a></div>
+							<button class="button-blue buttons-dialog">Открыть диалог</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer-wrap">
+		<div class="container">
+			<div class="row footer">
+				<div class="col-lg-9 footer-left">
+					<div class="copy__block"><img class="copy-img" src="../assets/img/icons/copy.svg" alt="" title="">
+						<div class="copy-text">
+							<div class="copy-text-top">Информационная система «пк Принтпроф»</div>
+							<div class="copy-text-bottom">2019. Все права защищены.</div>
+						</div>
+					</div><a class="conf" href="javascript:void(0);">Политика конфеденциальности</a>
+				</div>
+				<div class="col-lg-3 footer-right"><a class="stek__block" href="javascript:void(0);">
+						<div class="stek__block-text">Разработка и поддержка сайта:<br/> СТЕК. Комплексный ит-аутсорсинг</div><img class="stek__block-img" src="../assets/img/icons/logo-stek.svg" alt="" title=""></a></div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="./assets/lib/jquery/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./assets/lib/bootstrap 4.1.3/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./assets/lib/jqueryFormStyler/jquery.formstyler.min.js"></script>
+	<script type="text/javascript" src="./assets/lib/jquery.maskedinput/jquery.maskedinput.min.js"></script>
+	<script type="text/javascript" src="./assets/lib/jquery-ui-1.12.1/jquery-ui.js"></script>
+	<!--link(href="./assets/lib/jquery-date-range-picker-master/daterangepicker.css" rel="stylesheet")-->
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<script src="./js/index.js"></script>
+</body>
