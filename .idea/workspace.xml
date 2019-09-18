@@ -2,6 +2,227 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc81f0e0-bafe-48f8-a61a-f45bdd0e89f4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/CODE_OF_CONDUCT.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/MENTIONS.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/example10-code.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/example10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/example10t-code.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/example10t.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/example20-code.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/example20.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/example20t-code.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/example20t.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/example30-code.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/example30.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/example40-code.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/example40.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/example50-code.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/example50.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/popper-documentation.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/scripts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_includes/tooltip-documentation.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_layouts/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_layouts/landing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_layouts/page-hashtag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_layouts/page-nowrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_layouts/page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_sass/libs/_functions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_sass/libs/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_sass/libs/_skel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/_sass/libs/_vars.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/css/code.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/css/ie8.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/css/ie9.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/css/images/arrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/css/images/bars.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/css/images/close.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/css/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/css/popper.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/favicon-16x16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/favicon-32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/favicon-96x96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/feed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/images/banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/images/banner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/images/pic01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/images/pic02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/images/pic03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/images/pic04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/images/pic05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/js/ie/backgroundsize.min.htc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/js/ie/html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/js/ie/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/js/jquery.nanoscroller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/js/jquery.scrollex.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/js/jquery.scrolly.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/js/skel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/js/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/popper-documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/tooltip-documentation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/docs/tooltip-examples.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/lerna.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/babel-config/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/babel-config/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/babel-config/yarn.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/bundle/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/bundle/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/bundle/yarn.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/eslint-config-popper/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/eslint-config-popper/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/eslint-config-popper/yarn.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/bower-publish.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/index.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/methods/defaults.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/methods/destroy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/methods/disableEventListeners.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/methods/enableEventListeners.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/methods/placements.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/methods/update.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/modifiers/applyStyle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/modifiers/arrow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/modifiers/computeStyle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/modifiers/flip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/modifiers/hide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/modifiers/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/modifiers/inner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/modifiers/keepTogether.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/modifiers/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/modifiers/preventOverflow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/modifiers/shift.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/clockwise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/computeAutoPlacement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/debounce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/findCommonOffsetParent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/findIndex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getBordersSize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getBoundaries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getBoundingClientRect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getClientRect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getFixedPositionOffsetParent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getOffsetParent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getOffsetRect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getOffsetRectRelativeToArbitraryNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getOppositePlacement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getOppositeVariation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getOuterSizes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getParentNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getPopperOffsets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getReferenceOffsets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getRoot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getRoundedOffsets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getScrollParent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getStyleComputedProperty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getSupportedPropertyName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getViewportOffsetRectRelativeToArtbitraryNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getWindow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/getWindowSizes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/includeScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/isBrowser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/isFixed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/isFunction.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/isIE.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/isModifierEnabled.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/isModifierRequired.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/isNumeric.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/isOffsetContainer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/removeEventListeners.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/runModifiers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/setAttributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/setStyles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/utils/setupEventListeners.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/functional/arrow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/functional/computeStyle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/functional/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/functional/flips.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/functional/lifecycle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/functional/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/functional/rendering.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/styles/test.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/types/tsconfig.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/types/type-tests.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/clockwise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/debounce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/findIndex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/getBoundaries.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/getBoundaries.padding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/getClientRect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/getOffsetParent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/getOppositePlacement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/getOppositeVariation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/getOuterSizes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/getParentNode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/getRoundedOffsets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/getScrollParent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/getStyleComputedProperty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/isFixed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/unit/parseOffset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/utils/getRect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/utils/makePopperFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/visual/flipWithoutPreventOverflow.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/visual/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/tests/visual/tooltip.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test-utils/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test-utils/setup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test-utils/utils/appendNewPopper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test-utils/utils/appendNewRef.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test-utils/utils/customEventPolyfill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test-utils/utils/getRect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test-utils/utils/isMSBrowser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test-utils/utils/makeConnectedElement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test-utils/utils/makeConnectedScrollElement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test-utils/utils/makeElement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test-utils/utils/prepend.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test-utils/utils/simulateScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test-utils/utils/then.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test-utils/yarn.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test/bin/karma.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/test/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/tooltip/bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/tooltip/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/tooltip/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/tooltip/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/tooltip/tests/functional/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/tooltip/tests/types/tsconfig.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/tooltip/tests/types/type-tests.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/packages/tooltip/yarn.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/popperjs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/lib/popper.js-master/yarn.lock" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -14,16 +235,62 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manager-docs.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager-docs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6684">
+              <caret line="64" column="48" lean-forward="false" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>popper</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-192" />
     <option name="y" value="-11" />
     <option name="width" value="1936" />
@@ -77,6 +344,22 @@
               <item name="pkrintprof" type="b2602c69:ProjectViewProjectNode" />
               <item name="pkrintprof" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pkrintprof" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pkrintprof" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pkrintprof" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pkrintprof" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pkrintprof" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pkrintprof" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -117,14 +400,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3099000" />
+    <option name="totallyTimeSpent" value="4047000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -132,14 +416,20 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,5 +441,39 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager-docs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/popper.js-master/packages/popper/src/modifiers/flip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="83" column="32" lean-forward="false" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6684">
+          <caret line="64" column="48" lean-forward="false" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
